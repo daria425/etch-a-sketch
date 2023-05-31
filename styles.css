@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(#ffe1ff, #ffe1ea);
+}
+h1 {
+  margin: 10px 0px 20px 0px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 3rem;
+}
+.top {
+  height: 25vh;
+  position: relative;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.bottom {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+.user-select {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.3rem;
+}
+.build-grid {
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+}
+
+.select-btn {
+  height: 30px;
+  width: 70px;
+  font-family: "Work Sans", sans-serif;
+}
+.select-btn,
+.build-grid {
+  margin-top: 5px;
+}
+
+.choose-paint {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.3rem;
+}
+
+.grid-container {
+  width: 560px;
+  height: 560px;
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  box-shadow: 10px 10px 18px #b6acc8;
+  /* position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, 0); */
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: #99b3ff;
+}
+
+.purple {
+  background-color: #b199ff;
+}
+
+.pink {
+  background-color: #ff99ff;
+}
+.random {
+  background-image: linear-gradient(to bottom right, #88f7ff, #a387ff, #ff57ff);
+}
+
+/* FOR DOM MANIPULATION */
+.add-border {
+  border: 1px solid white;
+}
+.blue-color {
+  background-color: #99b3ff;
+}
