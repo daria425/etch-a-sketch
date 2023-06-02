@@ -17,6 +17,7 @@ h1 {
   height: 30%;
   position: relative;
   text-align: center;
+  margin-bottom: 30px;
 }
 .bottom {
   display: flex;
@@ -56,6 +57,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
+  justify-content: space-evenly;
   box-shadow: 10px 10px 18px #b6acc8;
   /* position: absolute;
   left: 50%;
@@ -68,6 +70,11 @@ h1 {
   height: 40px;
   border: none;
   cursor: pointer;
+  margin-left: 20px;
+}
+.btn img {
+  width: 100%;
+  height: auto;
 }
 
 .blue {
@@ -85,10 +92,34 @@ h1 {
   background-image: linear-gradient(to bottom right, #88f7ff, #a387ff, #ff57ff);
 }
 
+.eraser {
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.blue:focus {
+  border: 2px solid white;
+}
+.pink:focus {
+  border: 2px solid white;
+}
+.purple:focus {
+  border: 2px solid white;
+}
+.random:focus {
+  border: 2px solid white;
+}
+.eraser:focus {
+  border: 2px solid white;
+}
 /* FOR DOM MANIPULATION */
 .add-border {
   border: 1px solid white;
 }
-.blue-color {
-  background-color: #99b3ff;
+.remove-previous {
+  display: none;
+}
+.add-new {
+  display: block;
 }
